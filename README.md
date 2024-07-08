@@ -23,3 +23,13 @@ git checkout branch-name
 # (Optional) Apply and remove stashed changes
 git stash pop
 
+<question 8>
+# List all tags
+git tag
+
+<question 9>
+# Delete the tag locally
+git tag -d v1.7
+
+# Delete the tag remotely
+git push origin :refs/tags/v1.7
